@@ -1,0 +1,22 @@
+{
+    "version": "0.1.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/dakort-app/dakort/releases/download/v0.1.0/dakort_0.1.0_windows_amd64.zip",
+            "bin": [
+                "dakort.exe"
+            ],
+            "hash": "3cc884f1cbad0f5180d3a3d728362906fa1c986e2b1da931d139ae7b1cdcf947"
+        },
+        "arm64": {
+            "url": "https://github.com/dakort-app/dakort/releases/download/v0.1.0/dakort_0.1.0_windows_arm64.zip",
+            "bin": [
+                "dakort.exe"
+            ],
+            "hash": "e4183c815835964709ad54352bb7a479852d855a024a2cfe6f6ac926e9c25614"
+        }
+    },
+    "homepage": "https://github.com/dakort-app/dakort",
+    "license": "MIT",
+    "description": "Claude Code and Codex on your phone, with your real sessions"
+}
