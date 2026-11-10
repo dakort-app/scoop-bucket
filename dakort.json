@@ -6,14 +6,14 @@
             "bin": [
                 "dakort.exe"
             ],
-            "hash": "3cc884f1cbad0f5180d3a3d728362906fa1c986e2b1da931d139ae7b1cdcf947"
+            "hash": "f19ecae78504b738b68a54c302acda329b479a7ee6553f988c5d5adb5d6287d4"
         },
         "arm64": {
             "url": "https://github.com/dakort-app/dakort/releases/download/v0.1.0/dakort_0.1.0_windows_arm64.zip",
             "bin": [
                 "dakort.exe"
             ],
-            "hash": "e4183c815835964709ad54352bb7a479852d855a024a2cfe6f6ac926e9c25614"
+            "hash": "0764cefed6cd5a7cd1d5e3380b342c6183b052be11c5337fac61b16c39ceaf89"
         }
     },
     "homepage": "https://github.com/dakort-app/dakort",
