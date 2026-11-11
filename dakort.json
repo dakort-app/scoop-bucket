@@ -1,19 +1,19 @@
 {
-    "version": "0.1.0",
+    "version": "0.1.1",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/dakort-app/dakort/releases/download/v0.1.0/dakort_0.1.0_windows_amd64.zip",
+            "url": "https://github.com/dakort-app/dakort/releases/download/v0.1.1/dakort_0.1.1_windows_amd64.zip",
             "bin": [
                 "dakort.exe"
             ],
-            "hash": "f19ecae78504b738b68a54c302acda329b479a7ee6553f988c5d5adb5d6287d4"
+            "hash": "d0455e6adcfaa4aa2b9062a7553e597bc8dd40eb9f6d196967b0f525cbb6c36d"
         },
         "arm64": {
-            "url": "https://github.com/dakort-app/dakort/releases/download/v0.1.0/dakort_0.1.0_windows_arm64.zip",
+            "url": "https://github.com/dakort-app/dakort/releases/download/v0.1.1/dakort_0.1.1_windows_arm64.zip",
             "bin": [
                 "dakort.exe"
             ],
-            "hash": "0764cefed6cd5a7cd1d5e3380b342c6183b052be11c5337fac61b16c39ceaf89"
+            "hash": "8f591c14e1e76860207ca8647099c34b2cc461244306197e53a0001875381d23"
         }
     },
     "homepage": "https://github.com/dakort-app/dakort",
