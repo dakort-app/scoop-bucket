@@ -1,5 +1,6 @@
 # On every push (goreleaser's included): add this bucket on a Windows
-# runner, install dakort with Scoop the way a person would, and run it.
+# runner the way a person would (by its URL; Scoop refuses a local
+# folder), install dakort with Scoop, and run it.
 name: install
 on:
   push:
@@ -9,13 +10,12 @@ jobs:
   scoop:
     runs-on: windows-latest
     steps:
-      - uses: actions/checkout@v4
       - shell: pwsh
         run: |
           Set-ExecutionPolicy RemoteSigned -Scope CurrentUser -Force
           Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
           $env:Path = "$env:USERPROFILE\scoop\shims;$env:Path"
-          scoop bucket add dakort "$PWD"
+          scoop bucket add dakort https://github.com/dakort-app/scoop-bucket
           scoop install dakort
           dakort -version
           scoop uninstall dakort
